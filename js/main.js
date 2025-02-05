@@ -77,17 +77,7 @@ paneItem.forEach((item,index)=>{
 //     slide.scrollLeft=scrollLeft - walk;
 // })
 
-// Dropdown nav moblie
-// var lis=document.querySelectorAll('.have-sub-nav');
-// console.log(lis);
-// var subnavs=document.querySelectorAll('.sub-nav');
-// console.log(subnavs);
-// lis.forEach((item,index)=>{
-//     item.onclick=()=>{
-//         document.querySelector('.sub-nav.active')?.classList.remove('active');
-//         subnavs[index]?.classList.toggle('active');
-//     }
-// })
+
 
 var bar_toggle=document.querySelector('.bar-toggle');
 console.log(bar_toggle);
